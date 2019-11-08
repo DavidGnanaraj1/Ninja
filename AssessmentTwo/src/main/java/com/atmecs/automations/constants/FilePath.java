@@ -10,7 +10,7 @@ public class FilePath {
 
 	public static final String FIREFOX_FILE = USER_DIR + "lib" + File.separator + "geckodriver.exe";
 
-	public static final String IE_FILE = USER_DIR + "lib" + File.separator + "IEDriverServer.exe";
+	public static final String IE_FILE = USER_DIR + "lib3" + File.separator + "IEDriverServer.exe";
 
 	public static final String CONFIG_FILE = USER_DIR + "resources" + File.separator + "configurations" + File.separator
 			+ "config.properties";
@@ -22,7 +22,7 @@ public class FilePath {
 			+ "log4j.properties";
 
 	public static final String TESTDATA_FILE = USER_DIR + "resources" + File.separator + "testdata" + File.separator
-			+ "TestDataProvider.xlsx";
+			+ "TestData.xlsx";
 
 	public static final String EXPECTEDDATA_FILE = USER_DIR + "resources" + File.separator + "expecteddata"
 			+ File.separator + "expecteddata.properties";
